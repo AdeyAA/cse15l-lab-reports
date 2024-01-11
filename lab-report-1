@@ -1,1 +1,11 @@
+[user@sahara ~]$ cd
+[user@sahara ~]$ cd lecture1
+[user@sahara ~/lecture1]$ cd README
+
+
+
+
+
+bash: cd: README: Not a directory
+[user@sahara ~/lecture1]$ 
 
