@@ -1,17 +1,22 @@
  # cd
 ```
 [user@sahara ~]$ cd
-[user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ cd README
-bash: cd: README: Not a directory
 ```
 -The working directory when the first line was run was the home directory.
 We got this output because we gave no arguments so there is no directory to change to.
 The output was not an error.
 
+```
+[user@sahara ~]$ cd lecture1
+```
 -The working directory when the second line was run was the `lecture1` directory.
 We got this output because we gave the argument of the `lecture1` directory, so we changed from the home directory to the `lecture1` directory.
 The output was not an error.
+
+```
+[user@sahara ~/lecture1]$ cd README
+bash: cd: README: Not a directory
+```
 
 -The working directory when the third line was run was the `lecture1` directory.
 We got this output because we have the argument of README which is not a directory but a file inside the `lecture1` directory, so this command would not work.
