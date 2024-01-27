@@ -68,7 +68,7 @@ cat: lecture1: No such file or directory
 We got this output because here we are in the `lecture1` directory and the `cat` command was given an argument of the directory that we are already in so it wouldn't make sense for the `lecture1` directory to be an argument for the cat command here.
 The output was an error that said no such file or directory because the argument that was given after the cat command was `lecture1` but we are already in the `lecture1` directory and there is no directory or file named `lecture1` in the `lecture1` directory.
 
-````
+```
 [user@sahara ~/lecture1]$ cat README
 To use this program:
 
