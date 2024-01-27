@@ -76,6 +76,6 @@ java Hello messages/en-us.txt
 ```         
 
 -The working directory when the line was run was the `lecture1` directory. 
-We got this output because here we are asking the command `cat` while in the `lecture1` directory to read the file titled README and the contents of that file are printed.
+We got this output because here we are asking the `cat` command while in the `lecture1` directory to read the file titled README and the contents of that file are printed.
 The output was not an error.
 
