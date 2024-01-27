@@ -2,7 +2,7 @@
 ```
 [user@sahara ~]$ cd
 ```
--The working directory when the line was run was the home directory.
+-The working directory when the line was run was the `home` directory.
 We got this output because we gave no arguments so there is no directory to change to.
 The output was not an error.
 
