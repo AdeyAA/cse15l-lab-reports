@@ -120,3 +120,7 @@ because then a new chat is added to chatMessages so the field is changed.
 ![Image](key.jpg)
 ![Image](key.jpg)
 ![Image](login.jpg)
+
+# Part 3
+
+Something that I learned from lab in weeks 2 and 3 that I did't know before was how to start a server. I also learned how manipulating a URL's path can allow you to execute different things like adding elements to a list. 
