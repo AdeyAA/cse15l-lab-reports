@@ -64,21 +64,17 @@ The methods called in my code are the main method and the handleRequest method.
 
 # What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-In the handleRequest method the argument given is a `URI url` which allows us to access the url that we inputted which was `https://0-0-0-0-9089-r4rppjtr16ohetrtvmc6ce0ivk.us.edusercontent.com/add-message?s=How are you&user=Adey`.
-The values in this method include:
-1.String Builder `chatMessages`
-2.String `queryString = "s=How are you&user=Adey"`
-3.String array `chatInfo = ["s=How are you", "user=Adey"]`
-4.String `message = "How are you"`
-5.String `user = "Adey"`
-6.String array `keyValue = ["`
-7.String `chatMessage = "Adey: How are you"`
+In the handleRequest method the argument given is a `URI url` which allows us to access the url that we inputted.
+Relevant field of the class is Stringbuilder `chatMessages` which stores all of the chat messages added. 
+In the handleRequest method the argument given is a URI url which allows us to access the url that we inputted which was https://0-0-0-0-9089-r4rppjtr16ohetrtvmc6ce0ivk.us.edusercontent.com/add-message?s=How are you&user=Adey. The values in this method include: 1.String Builder chatMessages 2.String queryString = "s=How are you&user=Adey" 3.String array chatInfo = ["s=How are you", "user=Adey"] 4.String message = "How are you" 5.String user = "Adey" 6.String array keyValue = [" 7.String chatMessage = "Adey: How are you"
 
 In the main method it takes in a command line argument which was java ChatServer 9089 which is how the server was started.
 
 
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
+The field chatMessages changes whenever the if statement checking whether the url path contains `/add-message` is true and when `user` and `message is not null,
+becasue then a new chat is added to chatMessages so the field is changed. 
 
 
 
@@ -92,23 +88,24 @@ The methods called in my code are the main method and the handleRequest method.
 
 # What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-In the handleRequest method the argument given is a `URI url` which allows us to access the url that we inputted which was `https://0-0-0-0-9089-r4rppjtr16ohetrtvmc6ce0ivk.us.edusercontent.com/add-message?s=Hiiiiiii&user=Adey`.
+In the handleRequest method the argument given is a `URI url` which allows us to access the url that we inputted.
+Relevant field of the class is Stringbuilder `chatMessages` which stores all of the chat messages added. 
+In the handleRequest method the argument given is a URI url which allows us to access the url that we inputted which was https://0-0-0-0-9089-r4rppjtr16ohetrtvmc6ce0ivk.us.edusercontent.com/add-message?s=Hiiiiiii&user=Adey. 
 The values in this method include:
-1.String Builder `chatMessages`
-2.String `queryString = "s=Hiiiiiii&user=Adey"`
-3.String array `chatInfo = ["s=Hiiiiiii", "user=Adey"]`
-4.String `message = "Hiiiiiii"`
-5.String `user = "Adey"`
-6.String array `keyValue = ["`
-7.String `chatMessage = "Adey: Hiiiiiii"`
+1.String Builder chatMessages
+2.String queryString = "s=Hiiiiiii&user=Adey"
+3.String array chatInfo = ["s=Hiiiiiii", "user=Adey"]
+4.String message = "Hiiiiiii"
+5.String user = "Adey"
+7.String chatMessage = "Adey: How are you"
 
 
 In the main method it takes in a command line argument which was java ChatServer 9089 which is how the server was started.
 
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-
-
+The field chatMessages changes whenever the if statement checking whether the url path contains `/add-message` is true and when `user` and `message is not null,
+becasue then a new chat is added to chatMessages so the field is changed. 
 
 
 # Part 2
