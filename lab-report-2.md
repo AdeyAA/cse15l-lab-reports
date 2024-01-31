@@ -67,7 +67,7 @@ The methods called in my code are the main method and the handleRequest method.
 In the handleRequest method, the argument given is a `URI url` which allows us to access the URL that we inputted.
 Relevant field of the class is StringBuilder `chatMessages` which stores all of the chat messages added.
 The values in this method include:
-1.String Builder chatMessages
+1.StringBuilder chatMessages = ""
 2.String queryString = "s=How are you&user=Adey"
 3.String array chatInfo = ["s=How are you", "user=Adey"]
 4.String message = "How are you"
@@ -79,8 +79,9 @@ In the main method, it takes in a command line argument which was java ChatServe
 
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-The field chatMessages changes whenever the if statement checking whether the URL path contains `/add-message` is true and when `user` and `message are not null,
-because then a new chat is added to chatMessages so the field is changed. 
+The field chatMessages changes whenever the if statement checks whether the URL path contains `/add-message` is true and when `user` and `message are not null,
+because then a new chat is added to chatMessages so the field is changed.  The other values mentioned in the second question also change according to whatever was inputted is the user string and message string.
+
 
 
 
@@ -98,20 +99,20 @@ In the handleRequest method, the argument given is a `URI url` which allows us t
 Relevant field of the class is StringBuilder `chatMessages` which stores all of the chat messages added. 
 
 The values in this method include:
-1.String Builder chatMessages
+1.StringBuilder chatMessages = "Adey: How are you"
 2.String queryString = "s=Hiiiiiii&user=Adey"
 3.String array chatInfo = ["s=Hiiiiiii", "user=Adey"]
 4.String message = "Hiiiiiii"
 5.String user = "Adey"
-6.String chatMessage = "Adey: How are you"
+6.String chatMessage = "Adey: Hiiiiiii"
 
 
 In the main method, it takes in a command line argument which was java ChatServer 9089 which is how the server was started.
 
 # How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-The field chatMessages changes whenever the if statement checking whether the URL path contains `/add-message` is true and when `user` and `message is not null,
-because then a new chat is added to chatMessages so the field is changed. 
+The field chatMessages changes whenever the if statement checks whether the URL path contains `/add-message` is true and when `user` and `message are not null,
+because then a new chat is added to chatMessages so the field is changed. The other values mentioned in the second question also change according to whatever was inputted is the user string and message string.
 
 
 # Part 2
@@ -123,4 +124,4 @@ because then a new chat is added to chatMessages so the field is changed.
 
 # Part 3
 
-Something that I learned from lab in weeks 2 and 3 that I did't know before was how to start a server. I also learned how manipulating a URL's path can allow you to execute different things like adding elements to a list. 
+Something that I learned from lab in weeks 2 and 3 that I didn't know before was how to start a server. I also learned how to set up ssh keys and access like our specific ieng6 thing. I also learned how manipulating a URL's path can allow you to execute different things like adding elements to a list. 
