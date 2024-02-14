@@ -116,10 +116,8 @@ because then a new chat is added to chatMessages so the field is changed. The ot
 
 
 # Part 2
+<img width="641" alt="Screenshot 2024-02-13 at 11 09 23 PM" src="https://github.com/AdeyAA/cse15l-lab-reports/assets/96445037/5c194429-7494-4c48-adb2-dba9c440ce76">
 
-
-![Image](key.jpg)
-<img width="543" alt="Screenshot 2024-02-13 at 10 53 27 PM" src="https://github.com/AdeyAA/cse15l-lab-reports/assets/96445037/6e1b3292-814a-4079-bb3c-c1d7bbc3c1e8">
 
 ![Image](login.jpg)
 
