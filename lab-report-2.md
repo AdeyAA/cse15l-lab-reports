@@ -59,7 +59,7 @@ class ChatServer {
 
 # Which methods in your code are called?
 
-The methods called in my code are the main method and the handleRequest method.
+The methods called in my code are the main method and the handleRequest method. We also have the class Handler which implements the URLHandler. The variables in the code are chatMessages, queryString, chatInfo, message, user, info, and keyValue.
 
 
 # What are the relevant arguments to those methods, and the values of any relevant fields of the class?
