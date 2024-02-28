@@ -24,14 +24,14 @@ For this step, I used the `CTRL-R` command and then pressed `<tab>` to complete 
 
 <img width="655" alt="Screenshot 2024-02-27 at 1 47 57 PM" src="https://github.com/AdeyAA/cse15l-lab-reports/assets/96445037/341c8c20-5768-4d3e-a835-4694732bcb8f">
 
--After using the `cd` command to enter the lab7 directory. I used the `CTRL-R` command to run `bash test.sh` the pressed `<enter>`.
+-After using the `cd` command to enter the lab7 directory. I used the `CTRL-R` command to until it semi auto-completed `bash test.sh` then pressed `<tab>` then pressed `<enter>`.
 
 
 
 # Step 7: Edit the code file to fix the failing test
 <img width="640" alt="Screenshot 2024-02-27 at 3 00 19 PM" src="https://github.com/AdeyAA/cse15l-lab-reports/assets/96445037/fbec1f5f-2099-45f1-8150-b6f3015f1be1">
 
--I used the command `CTRL-R` to complete the line `vim ListExamples.java` and pressed `<enter>` then used the keys `k` `j` `l` `h` to find the spot with the error. Then I used the 'x' key to delete the number 1 then I used the key `i` to insert the number 2 where the number 1 previously was. After that, I used the `esc` key to go back to normal mode then used the command `:wq!` to save the changes in `ListExamples.java` and pressed `<enter>`.
+-I used the command `CTRL-R` to complete the line `vim ListExamples.java` and pressed `<enter>` then used the keys `k` `j` `l` `h` to find the spot with the error which was specifically `h` `h` `h` `h` `h` `h` a total of six times. Then I used the 'x' key to delete the number 1 then I used the key `i` to insert the number 2 where the number 1 previously was. After that, I used the `esc` key to go back to normal mode then used the command `:wq!` to save the changes in `ListExamples.java` and pressed `<enter>`.
 
 
 
@@ -40,7 +40,7 @@ For this step, I used the `CTRL-R` command and then pressed `<tab>` to complete 
 
 <img width="556" alt="Screenshot 2024-02-27 at 1 47 28 PM" src="https://github.com/AdeyAA/cse15l-lab-reports/assets/96445037/654fddad-27ae-414c-bad1-afa14d48aaa9">
 
-- For this step, I just used the upward key until I found `bash test.sh` again and pressed `<enter>`.
+- For this step, I just used the upward key twice `<up>` `<up>` until I found `bash test.sh` again and pressed `<enter>`.
 
 
 # Step 9: Commit and push the resulting change to your Github account
