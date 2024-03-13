@@ -37,9 +37,10 @@ Thank you for the help. The bug was in my second for loop like you suggessted, w
 4. The file & directory structure needed:
 
 lab-report/
-│
-├── AverageCalculator.java
-└── test.sh
+
+      -AverageCalculator.java
+   
+      -test.sh
 
 
    
